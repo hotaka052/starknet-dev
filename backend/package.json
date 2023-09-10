@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "starknet": "^5.19.5",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.9",
+    "eslint": "^8.48.0",
+    "eslint-config-prettier": "^9.0.0",
+    "prettier": "^3.0.3",
+    "tsconfig-paths": "^4.2.0"
+  }
+}

@@ -1,0 +1,20 @@
+{
+    "dockerComposeFile": [
+        "../../docker-compose.yml"
+    ],
+    "service": "backend",
+    "runServices": [
+        "backend",
+        "starknet"
+    ],
+    "workspaceFolder": "/workspaces",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "starkware.cairo1",
+                "esbenp.prettier-vscode",
+                "dbaeumer.vscode-eslint"
+            ]
+        }
+    }
+}

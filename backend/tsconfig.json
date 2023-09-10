@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es2017", // コンパイルされた JavaScript のターゲットバージョン
+    "module": "CommonJS", // 使用するモジュールシステム
+    "strict": true, // 厳格な型チェックを有効にする
+    "esModuleInterop": true, // ESモジュールとの相互運用性を向上させる
+    "skipLibCheck": true, // 型定義ファイルのチェックをスキップする
+    "forceConsistentCasingInFileNames": true, // 大文字と小文字の一貫性を強制
+    "outDir": "./dist", // コンパイルされたファイルの出力ディレクトリ
+    "rootDir": "./src", // ソースファイルのルートディレクトリ
+    "moduleResolution": "node", // モジュール解決戦略
+    "resolveJsonModule": true, // JSONモジュールの解決を有効にする（必要に応じて）
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": [
+    "src/**/*.ts" // コンパイルするTypeScriptファイル
+  ],
+  "exclude": [
+    "node_modules" // node_modules ディレクトリは除外
+  ]
+}
